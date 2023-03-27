@@ -24,7 +24,7 @@ public class Student extends Person {
     ClassRoom classRoom = new ClassRoom() {
         @Override
         public void inputClass(Scanner scanner) {
-            System.out.print("Enter Your Class");
+            System.out.print("Enter Your Class: ");
             room = scanner.next();
         }
 
